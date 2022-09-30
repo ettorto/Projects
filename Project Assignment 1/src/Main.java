@@ -5,6 +5,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Stack;
 
+/**
+*@author Ernest Torto
+*/
 public class Main {
    // These are the global variables that are used in the program.
     public static ArrayList<Airports> airportArray = new ArrayList<>();
