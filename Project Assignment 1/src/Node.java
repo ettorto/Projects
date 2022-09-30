@@ -94,7 +94,7 @@ class bfs{
         while(!frontier.isEmpty()){
             Node node= frontier.poll();
             exploredSet.add(node.getState());
-            System.out.println(Problem.actions(node.getState()));
+//             System.out.println(Problem.actions(node.getState()));
             for(Route route: Problem.actions(node.getState())){
 
                 try{
