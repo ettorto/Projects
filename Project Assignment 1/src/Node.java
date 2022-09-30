@@ -15,6 +15,13 @@ public class Node {
 
     private int stops;
 
+     /**
+     * 
+     * @param state
+     * @param parent
+     * @param action
+     * @param stops
+     */
     public Node(int state, Node parent, String action,int stops) {
         this.state = state;
         this.parent = parent;
